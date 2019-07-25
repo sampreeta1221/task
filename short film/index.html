@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<title>short films</title>
+</head>
+
+<body>
+<div class="header">
+		<div class="menu">
+			<div class="leftmenu">
+				<h4> short Films </h4>
+			</div>
+
+			<div class="rightmenu">
+				
+                <ul>
+	                <li> <div class="select-style">
+	                    <a style="text-decoration:none"  href="ssss.html"> HOME </a>
+	                </div></li>
+	                <li> <div class="select-style">
+	                     <a style="text-decoration:none"  href="ssss.html"> ABOUT US </a>
+	                 </div></li>
+	                <li> <div class="select-style">
+	                    <a style="text-decoration:none"  href="ssss.html"> services </a></div>
+	                </li> 
+	                <li><div class="select-style">
+	                    <a style="text-decoration:none"  href="ssss.html"> contact us </a>
+	                </div></li>
+                </ul>      
+            </div>
+	</div>
+	<div class="slideshow-container">
+        <div class="mySlides fade">
+        <img src="urin.jpg" style="width:100%">
+        <form method="get" action="shortmovie.html">
+        <button type="submit" class="btn3">Watch Trailor</button>
+        </form>
+    </div>
+    <div class="mySlides fade">
+        <img src="avenger1.jpg" style="width:100%" height="400">
+        <form method="get" action="shortmovie.html">
+        <button type="submit" class="btn3">Watch Trailor</button>
+        </form>
+    </div>
+    <div class="mySlides fade">
+        <img src="telugu.jpg" style="width:100%" height="400">
+        <form method="get" action="shortmovie.html">
+        <button type="submit" class="btn3">Watch Trailor</button>
+         </form>
+     </div>
+</div>
+<div style="text-align:center">
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="rightmenu1">		
+  <ul>
+    <li><div class="select-style">
+	<label for="" class=""><em>Language:</em> </label>
+    <select class="select-style">
+ 	<option value="0">All</option>
+    <option value="1">ENGLISH</option>
+    <option value="2">HINDI</option>
+    <option value="3">TELUGU</option>
+    <option value="4">TAMIL</option>
+    <option value="5">KANNADA</option>
+    </select>
+    </div></li>
+    <li><div class="select-style">
+	<label for="" class=""><em>Genre:</em> </label>
+    <select class="select-style">
+ 	<option value="0">ALL</option>
+    <option value="1">DRAMA</option>
+    <option value="2">ROMANTIC</option>
+    <option value="3">HORROR</option>
+    <option value="4">THRILLER</option>
+    <option value="5">FAMILY</option>
+    <option value="6">Jaguar</option>
+    </select>
+    </div></li>
+	<li><div class="select-style">
+	<label for="" class=""><em>sort by:</em> </label>
+    <select class="select-style">
+ 	<option value="0">ALL</option>
+    <option value="1">FRESHNESS</option>
+    <option value="2">POPULARITY</option>
+    <option value="3">LENGTH</option>
+    </select>
+    </div></li>
+    <li><div class="select-style">
+    <input type="text" placeholder="Search.."></div>
+	</li>
+  </ul>
+</div>
+	<main class="grid">
+  <div class="div1">
+  	<h1><a href="shortmovie.html" class="effect-underline" style="">Watch Trailor</a></h1>
+   </div>
+   <div class="div2">
+   <h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1>
+   </div> 
+   <div class="div3">
+   <h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1>
+   </div>
+   <div class="div4">
+   <h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1>
+   </div>
+  <div class="div5"> <h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1> </div>
+  <div class="div6"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1>
+  </div>
+  <div class="div8"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+  <div class="div12"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+  <div class="div9"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+  <div class="div10"><h1><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+  <div class="div11"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+  <div class="div7"><h1 ><a href="shortmovie.html" class="effect-underline">Watch Trailor</a></h1></div>
+</main>
+
+ <center>
+<div class="container"> 
+	<button class="btn2">Load More</button>
+</div>
+</center>
+<center>
+<div style="footer">
+  <p>@copyright issues</p>
+</div>
+</center>
+</body
+  
+</html>
